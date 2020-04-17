@@ -1,0 +1,173 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+h3,h1{
+  text-align: center;
+  padding: 0 auto;
+}
+h1{
+  font-weight: 600;
+  margin-top: 0;
+}
+h3
+{
+  font-weight: 200;
+  font-size: 32px;
+  margin-bottom: 0;
+  margin-top: 20;
+}
+.heading p{
+  width: 35%;
+  font-size: 15px;
+  text-align: center;
+  margin: 0 auto;
+  color: #808080;
+  margin-bottom: 40px;
+}
+h2{
+  font-weight: 600;
+  font-size: 20px;
+}
+.boxes{
+  margin: 0 10%;
+  margin-bottom: 50px;
+  margin-top: 0;
+  position: relative;
+  text-align: center;
+}
+
+.box4{
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+.box1{
+   border-top: 5px solid hsl(180, 62%, 55%);
+}
+.box2{
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+.box3{
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+
+@media only screen and (max-width:700px){
+  body{
+    margin: 0 5%;
+  }
+  .heading p{
+    width:90%;
+    font-size: 18px;
+  }
+  /* .boxes{
+    display: block;
+  } */
+  .box{
+    text-align: left;
+    box-shadow: 1px 15px 30px 10px #e5e5e5;
+    border-radius: 6px;
+    padding-left: 20px;
+    clear: right;
+    margin-bottom: 40px;
+
+  }
+
+  .box p{
+    color: #808080;
+    font-size: 14px;
+    width: 75%;
+  }
+  img{
+    margin-left: 70%;
+  }
+
+}
+
+
+@media only screen and (max-width: 1070px) and (min-width:700px){
+  .boxes{
+    margin: 0 3%;
+  }
+  .heading p{
+    width: 60%;
+  }
+  .box3{
+    margin-top: 330px;
+  }
+  .box{
+    display: inline-block;
+    width: 25%;
+    text-align: left;
+    box-shadow: 1px 15px 30px 10px #e5e5e5;
+    border-radius: 6px;
+    padding-left: 20px;
+  }
+  .box4{
+    margin-top: 130px;
+    position: absolute;
+    right: 0;
+  }
+  .box1{
+    margin-top: 130px;
+    position: absolute;
+    left: 0;
+  }
+  .box2{
+    position: absolute;
+  }
+  .box3{
+    /* position: absolute; */
+    margin-top: 300px;
+  }
+  .box p{
+    color: #808080;
+    font-size: 14px;
+    width: 85%;
+  }
+  img{
+    float: right;
+    margin: 40px;
+    margin-top: 0;
+  }
+}
+
+
+@media only screen and (min-width: 1070px) {
+  .box{
+    display: inline-block;
+    width: 25%;
+    text-align: left;
+    box-shadow: 1px 15px 30px 10px #e5e5e5;
+    border-radius: 6px;
+    padding-left: 20px;
+  }
+  .box4{
+    margin-top: 130px;
+    position: absolute;
+    right: 0;
+  }
+  .box1{
+    margin-top: 130px;
+    position: absolute;
+    left: 0;
+  }
+  .box2{
+    position: absolute;
+  }
+  .box3{
+    margin-top: 280px;
+  }
+  .box p{
+    color: #808080;
+    font-size: 14px;
+    width: 85%;
+  }
+  img{
+    float: right;
+    margin: 40px;
+    margin-top: 0;
+  }
+
+
+}
